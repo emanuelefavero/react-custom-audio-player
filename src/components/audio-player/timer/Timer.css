@@ -1,0 +1,19 @@
+.timer-container {
+    width: 200px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.timer {
+    margin-left: 0.7rem;
+    user-select: none;
+}
+
+.time-separator::before {
+    content: '/';
+    margin-left: 0.7rem;
+    color: rgb(206, 206, 206);
+}

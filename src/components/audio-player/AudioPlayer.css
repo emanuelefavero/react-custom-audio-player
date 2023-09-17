@@ -1,0 +1,27 @@
+.audio-player-container {
+  position: fixed;
+  width: 100%;
+  height: max-content;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 0.6rem 0.8rem;
+  border-radius: 7px;
+
+  /* Prevent Selectable Text*/
+  /* Beware: check if not on mobile before implementing this, (weird error on mobile) */
+  /* user-select: none; */
+}
+
+.control-panel-container {
+  position: relative;
+  top: -7px;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+
+.hidden-keyboard-input {
+  display: none;
+}
